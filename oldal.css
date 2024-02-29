@@ -5,3 +5,11 @@ body{
 header {
     display: block;
   }
+
+#menu1{
+    width: 500px;
+    height: 680px;
+    background-image: url(menu.jpg);
+    
+}
+

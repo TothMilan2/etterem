@@ -6,10 +6,10 @@ header {
     display: block;
   }
 
-#menu1{
-    width: 500px;
-    height: 680px;
-    background-image: url(menu.jpg);
-    
+#kep1{
+margin: auto;
+}
+#kep2{
+margin-left: 30%;
 }
 

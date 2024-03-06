@@ -13,3 +13,55 @@ header {
     
 }
 
+body{
+    background-color: #368c9f;
+    margin: 0%;
+}
+
+header {
+    display: block;
+    height: 50px;
+    width: 100%; 
+    font-size: xx-large;
+    position: relative;
+  }
+
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:white;
+}
+a:active{
+    color:white;
+}
+
+.kep1{
+    margin: auto;
+    display: block;
+    width: 101%;
+}
+
+.kep2{
+    margin: block;
+}
+
+
+footer{
+    display: block;
+    height: 15%;
+    width: 100%;
+    font-size: large;
+    position: fixed;
+    bottom: 0px;
+}
+#menu1{
+    width: 500px;
+    height: 680px;
+    background-image: url(menu.jpg);
+    
+}

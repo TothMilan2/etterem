@@ -9,24 +9,35 @@
 </head>
 <body>
    
-    <header  >
-        <div class="linkek"><a href="" id="link">Menü</a>
-            <a href="file:///D:/etterem/etterem/etterem-1/fooldal.html" id="link" style="margin-left: 40%;">Főoldal</a></div>
-        
+    <header style="background-color:#be9d6a;">
+        <div class="dropdown">
+            <button class="dropbtn">Menü</button>
+            <div class="dropdown-content">
+              <a href="fooldal.html">Főoldal</a>
+              <a href="rendezvenyek.html">Rendezvények</a>
+              <a href="Menu.html">Étlap</a> 
+            </div>
+        </div>
+    
     </header>
+
+    <h1 id="kekholdcim">Étlap</h1>
   
     
     
-    <div class="container">
-    <div class="menu1">
-    <a target="self" href="etelek.PNG" alt="Kattints az új ablakban való megnyitáshoz" id="keplink1">
-        <img src="etelek.PNG" id="menukep1" >
-    </a>
-    </div>
-    <div class="menu2"> 
-    <a target="_self" href="italok.PNG" alt="Kattints az új ablakban való megnyitáshoz" id="keplink2">
+    <div class="container ">
+    <div class="row" >
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <a target="self" href="etelek.PNG" alt="Kattints az új ablakban való megnyitáshoz" id="keplink1">
+                <img src="etelek.PNG" id="menukep1" >
+            </a>
+        </div>
+    
+        <div class="col-lg-6 col-md-12 col-sm-12 m" > 
+            <a target="_self" href="italok.PNG" alt="Kattints az új ablakban való megnyitáshoz" id="keplink2">
         <img src="italok.PNG" id="menukep2" >
-    </a>
+            </a>
+        </div>
     </div>
     </div> 
        
@@ -34,10 +45,10 @@
 
     <footer>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">License</a></li>
+            <li><a href="" id="flink">Home</a></li>
+            <li><a href="" id="flink">Contact</a></li>
+            <li><a href="" id="flink">About</a></li>
+            <li><a href="" id="flink">License</a></li>
         </ul>
         
     </footer>

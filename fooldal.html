@@ -6,23 +6,28 @@
     <title>Főoldal</title>
     <link rel="stylesheet" href="oldal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="header.js"></script>
 </head>
 <body>
-    <header style="background-image: url(hold.png);">
-        <a href="file:///D:/etterem/etterem/etterem-1/fooldal.html">főoldal</a>
-        <img class="kep1" src="pexels-marcus-herzberg-1058277 4.png" alt="">
-
+    
+    <header style="background-color:#be9d6a;">
+        <div class="dropdown">
+            <button class="dropbtn">Menü</button>
+            <div class="dropdown-content">
+              <a href="#">főoldal</a>
+              <a href="#">Rendezvények</a>
+              <a href="#">Étlap</a> 
+            </div>
+        </div>
+    
     </header>
-
-
-    <footer style="background-image: url(footer.png);"></footer>
 
 
     <div class="sor">
         <div class="col-md-4">
             <div class="balkep">
                 <a href="">
-                    <img src="menukep.png" alt="Menü"> 
+                    <img class=menukep src="menukep.png" alt="Menü"> 
                     <div class="felirat">
                         <p>Menü</p>
                     </div>
@@ -30,5 +35,34 @@
             </div>
         </div>
     </div>
+    <div class="col-md-4">
+        <div class="kozepkep">
+          <a href="">
+            <img src="" alt="Asztalfoglalás">
+            <div class="caption">
+              <p>Rendezvények</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="">
+            <img src="" alt="Asztalfoglalás">
+            <div class="caption">
+              <p>Asztalfoglalás</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>      
+
+
+
+
+    <footer style="background-image: url(footer.png);"></footer>
+
+
+    
 </body>
 </html>

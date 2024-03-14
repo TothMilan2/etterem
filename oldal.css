@@ -226,3 +226,28 @@ a:active{
     
 }
 
+/*Főoldal*/
+#fooldalcont{
+    display: flex;
+    justify-content: center;
+}
+#menu{
+float: left;
+}
+#rendezvenyek{
+    border-radius: 20px;
+    margin-top: 300px;
+    width: 395;
+    height: 215px;
+    margin-left: -50px;
+    
+}
+#asztalfoglalas{
+    float: right;
+    border-radius: 20px;
+    height: 215px;
+    width: 395px;
+}
+#fooldalszoveg{
+    text-align: center;
+}

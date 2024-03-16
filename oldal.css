@@ -5,13 +5,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: #368c9f;
-    min-height: 100%;
+    min-height: 100vh;
     position: relative;
 }
 
 #kekholdcim{
     padding-top: 50px;
-    text-align: center;
 }
 /*header*/
 .dropbtn {
@@ -82,42 +81,24 @@ header {
 
 /* footer*/
 
-
-footer{
-    display: block;
-    height: 120px;
-    width: 100%;
-    position: relative;
-    background-image: url(footer.png);
-    object-fit: cover;
-    margin-top: -100px;
-    clear: both;
-
-}
-footer ul {
+html, body {
+    height: 100%;
+  }
+  .wrapper {
     display: flex;
-    justify-content: center;
-    list-style-type:none;
-    justify-content: space-between;
-}
-
-footer ul li a{
-    
-    color: white;
-    margin: 20px;
-    text-decoration: none !important;
-    font-size: 60px;
-    transition: 0.5s;
-}
-footer ul li a:hover{
-    opacity: 1;
-    color: grey;
-
-}
-#flink{
-    font-family: fantasy;
-}
-
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .container3 {
+    flex: 1;
+  }
+  .footer {
+    flex-shrink: 0;
+    height: 150px; /* Height of the footer */
+    background-image: url('footer.png'); /* Replace 'footer-background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+  }
 /*linkek*/
 a:link{
     color:white;
@@ -251,3 +232,49 @@ float: left;
 #fooldalszoveg{
     text-align: center;
 }
+
+
+#ido{
+    font-size: xx-large;
+}
+
+
+
+
+
+
+  .time-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .time-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+
+  .time {
+    margin-right: 10px; /* Adjust as needed */
+  }
+
+  .box {
+    display: inline-block;
+    padding: 5px;
+    background-color: green;
+    /* Adjust width and height as needed */
+    width: 60px;
+    height: 35px;
+    /* Adjust font size and color */
+    font-size: 14px;
+    color: white;
+    /* Center text vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Make cursor pointer on hover */
+    cursor: pointer;
+  }
+
+

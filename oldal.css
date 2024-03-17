@@ -7,6 +7,8 @@ body{
     background-color: #368c9f;
     min-height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 #kekholdcim{
@@ -81,25 +83,90 @@ header {
 
 
 /* footer*/
-
-html, body {
-    height: 100%;
-  }
-  .wrapper {
+footer{
+    background: #343434;
+    padding-top: 50px;
+}
+.container4{
+    width: 1140px;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  .container3 {
-    flex: 1;
-  }
-  .footer {
-    flex-shrink: 0;
-    height: 150px; /* Height of the footer */
-    background-image: url('footer.png'); /* Replace 'footer-background.jpg' with the path to your image */
-    background-size: cover;
-    background-position: center;
-  }
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
 /*linkek*/
 a:link{
     color:white;
@@ -265,17 +332,13 @@ float: left;
     display: inline-block;
     padding: 5px;
     background-color: green;
-    /* Adjust width and height as needed */
     width: 60px;
     height: 35px;
-    /* Adjust font size and color */
     font-size: 14px;
     color: white;
-    /* Center text vertically and horizontally */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Make cursor pointer on hover */
     cursor: pointer;
   }
 

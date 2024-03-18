@@ -86,10 +86,12 @@ header {
 .footer {
     background-image: url(footer.png);
     margin-top: 100px;
+    clear: both;
     height:fit-content; 
     background-size: cover;
     background-position: center;
     text-align: center;
+    position: relative;
   }
 /*linkek*/
 a:link{
@@ -296,3 +298,11 @@ float: left;
 .rendezvenyek{
     border-radius: 20px;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+    .footer{
+        margin-top: 500px;
+    }
+  }

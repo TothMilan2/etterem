@@ -84,7 +84,7 @@ header {
 
 /* footer*/
 .footer {
-    background-color: green;
+    background-image: url(footer.png);
     margin-top: 100px;
     height:fit-content; 
     background-size: cover;

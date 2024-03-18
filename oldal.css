@@ -9,6 +9,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
+    
 }
 
 #kekholdcim{
@@ -93,7 +94,9 @@ header {
     text-align: center;
     position: relative;
   }
-/*linkek*/
+
+
+  /*linkek*/
 a:link{
     color:white;
     text-decoration: none;
@@ -148,17 +151,13 @@ a:active{
     
     
 }
-#menukep1{
-    float: left;
-    width: 498px;
-    height: 679px;
+#etelekep{
+    
     border-radius: 20px;
     
 }
-#menukep2{
-    float: right;
-    width: 498px;
-    height: 679px;
+#italokep{
+ 
     border-radius: 20px;
 }
 
@@ -266,8 +265,16 @@ float: left;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none!important;
+    transition: 0.15s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
   }
 
+.box:hover{
+    color: grey;
+    opacity: 1;
+}
 
 .balkep, .kozepkep, .thumbnail {
     display: flex;

@@ -326,3 +326,7 @@ float: left;
 .center1 {
     margin-top:400px;
   }
+
+.box{
+    border-radius: 10px;
+}
